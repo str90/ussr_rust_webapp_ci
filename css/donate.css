@@ -1,9 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,700,600,800,900);
 
 body {
-  background: #d4d4d4;
-  background-image: url("media/images/backgrounds/fon1.jpg");
-  background-repeat: no-repeat;
+  background: #d4d4d4 url("../resources/images/backgrounds/fon1.jpg") no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -27,8 +25,7 @@ body {
 .top {
   min-height: 100px;
   border-radius: 5px 5px 0 0;
-  background-image: url("media/images/index_top.png");
-  background-repeat: no-repeat;
+  background: url("../resources/images/index_top.png") no-repeat;
   background-size: cover;
 }
 
@@ -131,6 +128,4 @@ body {
 
 .basket {
   background-color: #843c3b;
-}
-
 }

@@ -2,7 +2,7 @@
 
 body {
   background: #d4d4d4;
-  background-image: url("media/images/backgrounds/fon1.jpg");
+  background-image: url("../resources/images/backgrounds/fon1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Raleway', sans-serif;
@@ -27,7 +27,7 @@ body {
 .top {
   min-height: 100px;
   border-radius: 5px 5px 0 0;
-  background-image: url("media/images/index_top.png");
+  background-image: url("../resources/images/index_top.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -155,4 +155,3 @@ body {
   background-color: #843c3b;
 }
 
-}

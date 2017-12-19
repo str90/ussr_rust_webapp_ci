@@ -14,7 +14,7 @@
         <li><?php echo anchor('MainPage/index', 'Главная', 'class="link-class"') ?></li>
         <li><a href="">Услуги</a>
             <ul>
-                <li><a href="donate.html">Магазин игровых вещей</a></li>
+                <li><?php echo anchor('Market/display', 'Магазин игровых вещей', 'class="link-class"') ?></li>
                 <li><a href="">Разбан</a></li>
             </ul>
         </li>
