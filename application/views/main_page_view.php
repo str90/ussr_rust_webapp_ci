@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="description" content="USSR_Rust server site">
-    <link rel="stylesheet" type="text/css" href = "css/index.css">
+    <link rel="stylesheet" type="text/css" href = "<?php echo base_url(); ?>css/index.css">
     <title>USSR_Rust</title>
 </head>
 
@@ -11,14 +11,14 @@
 <div class="wrapper">
     <div class="top"></div>
     <ul class="navigation">
-        <li><a href="index.html">Главная</a></li>
+        <li><?php echo anchor('MainPage/index', 'Главная', 'class="link-class"') ?></li>
         <li><a href="">Услуги</a>
             <ul>
                 <li><a href="donate.html">Магазин игровых вещей</a></li>
                 <li><a href="">Разбан</a></li>
             </ul>
         </li>
-        <li><a href="contacts.html">Контакты</a></li>
+        <li><?php echo anchor('Contacts/display', 'Контакты', 'class="link-class"') ?></li>
         <div class="clear"></div>
     </ul>
 
