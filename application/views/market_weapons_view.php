@@ -30,10 +30,11 @@
             <img src="/resources/images/donat_store/weapons/Assault_Rifle.png" height="80" width="80">
             <figcaption>Диды ваивали</figcaption>
             <hr>
-            <form id="wpn_ak47_form" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_ak47_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_ak47_form" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_ak47">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_ak47_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -41,10 +42,11 @@
             <img src="/resources/images/donat_store/weapons/Bolt_Action_Rifle.png" height="80" width="80">
             <figcaption>Болтовка</figcaption>
             <hr>
-            <form id="wpn_bolt_form" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_bolt_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_bolt_form" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_bolt">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_bolt_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -52,10 +54,11 @@
             <img src="/resources/images/donat_store/weapons/Crossbow.png" height="80" width="80">
             <figcaption>Арбалет</figcaption>
             <hr>
-            <form id="wpn_crossbow" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_crossbow_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_crossbow" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_crossbow">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_crossbow_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -63,32 +66,35 @@
             <img src="/resources/images/donat_store/weapons/Custom_SMG.png" height="80" width="80">
             <figcaption>Кустарный ПП</figcaption>
             <hr>
-            <form id="wpn_csmg" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_csmg_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_csmg" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_csmg">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_csmg_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
         <figure class="trade_item">
             <img src="/resources/images/donat_store/weapons/Double_Barrel_Shotgun.png" height="80" width="80">
             <figcaption>Гладкоствольный<wbr> двуствольный дрынь</figcaption>
-                    <hr>
-                    <form id="wpn_db" method="post"/>
-                    <label class="item_amount_field_descr" for="item_amount">Количество</label>
-                    <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_db_quantity' id='item_amount'><br>
-                    <button class="to_basket_btn" type='submit'>В корзину</button>
-                    </figcaption>
+            <hr>
+            <form id="wpn_db" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_db">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_db_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
+            </form>
         </figure>
 
         <figure class="trade_item">
             <img src="/resources/images/donat_store/weapons/Eoka_Pistol.png" height="80" width="80">
             <figcaption>Пугач бичей</figcaption>
             <hr>
-            <form id="wpn_eoka" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_eoka_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_eoka" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_eoka">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_eoka_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -96,10 +102,11 @@
             <img src="/resources/images/donat_store/weapons/Hunting_Bow.png" height="80" width="80">
             <figcaption>Лук</figcaption>
             <hr>
-            <form id="wpn_legolas" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_legolas_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_legolas" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_legolas">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_legolas_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -107,10 +114,11 @@
             <img src="/resources/images/donat_store/weapons/LR-300_Assault_Rifle.png" height="80" width="80">
             <figcaption>Пендосский калаш</figcaption>
             <hr>
-            <form id="wpn_lr-300" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_lr-300_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_lr-300" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_lr-300">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_lr-300_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -118,10 +126,11 @@
             <img src="/resources/images/donat_store/weapons/Pump_Shotgun.png" height="80" width="80">
             <figcaption>Гладкоствольный<wbr> дрынь на максималках</figcaption>
             <hr>
-            <form id="wpn_pump_shotgun" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_pump_shotgun_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_pump_shotgun" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_pump_shotgun">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_pump_shotgun_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -129,10 +138,11 @@
             <img src="/resources/images/donat_store/weapons/Revolver.png" height="80" width="80">
             <figcaption>Мечта чекиста</figcaption>
             <hr>
-            <form id="wpn_checkist" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_checkist_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_checkist" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_checkist">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_checkist_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -140,10 +150,11 @@
             <img src="/resources/images/donat_store/weapons/Semi-Automatic_Pistol.png" height="80" width="80">
             <figcaption>Обычный<wbr> пистолет</figcaption>
             <hr>
-            <form id="wpn_pistol" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_pistol_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_pistol" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_pistol">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_pistol_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -151,10 +162,11 @@
             <img src="/resources/images/donat_store/weapons/Semi-Automatic_Rifle.png" height="80" width="80">
             <figcaption>Нарезной полу<wbr>автоматический дрынь</figcaption>
             <hr>
-            <form id="wpn_dmr" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_dmr_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_dmr" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_dmr">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_dmr_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -162,10 +174,11 @@
             <img src="/resources/images/donat_store/weapons/Thompson.png" height="80" width="80">
             <figcaption>Автоматический<wbr> мелкокали<wbr>берный дрынь</figcaption>
             <hr>
-            <form id="wpn_thompson" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_thompson_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_thompson" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_thompson">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_thompson_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -173,10 +186,11 @@
             <img src="/resources/images/donat_store/weapons/Waterpipe_Shotgun.png" height="80" width="80">
             <figcaption>Гладкоствольный<wbr> дрынь на минималках</figcaption>
             <hr>
-            <form id="wpn_waterpipe" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_waterpipe_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_waterpipe" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_waterpipe">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_waterpipe_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -184,10 +198,11 @@
             <img src="/resources/images/donat_store/weapons/Holosight.png" height="80" width="80">
             <figcaption>Голографический<wbr>прицел</figcaption>
             <hr>
-            <form id="wpn_holo" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_holo_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_holo" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_holo">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_holo_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -195,10 +210,11 @@
             <img src="/resources/images/donat_store/weapons/4x_Zoom_Scope.png" height="80" width="80">
             <figcaption>4х кратный прицел</figcaption>
             <hr>
-            <form id="wpn_4x" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_4x_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_4x" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_4x">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_4x_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -206,10 +222,11 @@
             <img src="/resources/images/donat_store/weapons/Muzzle_Boost.png" height="80" width="80">
             <figcaption>Дульный ускоритель</figcaption>
             <hr>
-            <form id="wpn_boost" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_boost_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_boost" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_boost">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_boost_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
 
@@ -217,12 +234,14 @@
             <img src="/resources/images/donat_store/weapons/Muzzle_Brake.png" height="80" width="80">
             <figcaption>Дульный тормоз</figcaption>
             <hr>
-            <form id="wpn_brake" method="post"/>
-            <label class="item_amount_field_descr" for="item_amount">Количество</label>
-            <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_brake_quantity' id='item_amount'><br>
-            <button class="to_basket_btn" type='submit'>В корзину</button>
+            <form id="wpn_brake" method="post">
+                <label class="item_amount_field_descr" for="item_amount">Количество</label>
+                <input type="hidden" name="item" value="wpn_brake">
+                <input class="item_amount_field" placeholder='0' type="text" pattern='[0-9]{,}' name='wpn_brake_quantity' id='item_amount'><br>
+                <button class="to_basket_btn" type='submit'>В корзину</button>
             </form>
         </figure>
+
     </div>
 </div>
 </body>
