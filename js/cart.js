@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     $.ajax({
       type: "POST",
-      url: "php/donate_basket.php",
+        url: "http://192.168.57.181/CartUSSR/ym_native",
       success: function(data) {
         $(".pay_amount").val(data);
       },
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
     $.ajax({
       type: "POST",
-      url: "php/donate_basket.php",
+        url: "http://192.168.57.181/CartUSSR/ym_card",
       success: function(data) {
         $(".pay_amount").val(data);
       },
@@ -44,11 +44,11 @@ $(document).ready(function() {
 
     $.ajax({
       type: "POST",
-      url: "php/donate_basket_clear.php",
+        url: "http://192.168.57.181/CartUSSR/clear_cart",
       success: function(data) {
         $(".clear_basket_msg").show();
         setTimeout(function() { $(".clear_basket_msg").hide(); }, 3000);
-        $(".pay_amount").val("0");
+        $(".pay_amount").val(data);
       },
       error:function(ts) {
         alert(ts.responseText);

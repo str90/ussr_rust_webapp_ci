@@ -16,7 +16,7 @@
         <li><a href="donate_resources.html">Ресурсы</a></li>
         <li><a href="donate_items.html">Предметы</a></li>
         <li><a href="donate_clothes.html">Одежда</a></li>
-        <li class="basket"><a href="donate_basket.html">Корзина</a></li>
+        <li class="basket"> <li><?php echo anchor('CartUSSR/display', 'Корзина', 'class="link-class"') ?></li></li>
         <div class="clear"></div>
     </ul>
 
